@@ -1,2 +1,15 @@
 # add-fields-to-wp-customize
-Easily add custom fields to wp_customize (Appearance -> Customize)
+This plugin is intended to be used my WP programmers that need to save time when builing themes and add fields in WP customize.
+
+Install the plugin and print values in your theme by using this code
+
+<?php 
+
+$section = 'section_name'; //change "section_name" with the name of your section
+$field_id = 'field_id'; //change "field_id" with the id of your field
+
+echo print_field($section, 'box2');
+
+?>
+
+I'll publish example themes soon.
