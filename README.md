@@ -12,3 +12,7 @@ echo print_field($section, 'box2');
 
 
 I'll publish example themes soon.
+
+# TODO
+- manage different sections
+- explain what this plugin can do with screenshots and example themes
